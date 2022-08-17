@@ -1,0 +1,35 @@
+﻿function Test1()
+{
+  Browsers.Item(btChrome).Navigate("https://hansencis-uat.se.hsntech.com/EnergyPortal/jsf/care/searchCustomerProspect.jsf");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  let page = browser.pageSearchcustomerprospect;
+  page.Wait();
+  let textbox = page.formUsername;
+  textbox.textboxJUsername.SetText("SSHIVANNA");
+  let passwordBox = textbox.passwordboxJPassword;
+  passwordBox.Click();
+  passwordBox.SetText(Project.Variables.Password2);
+  textbox.buttonLogin.ClickButton();
+  page.Wait();
+  textbox = page.textboxRootbuid;
+  textbox.Click();
+  textbox.SetText("25451904");
+  page.buttonSearch.ClickButton();
+  page.buttonGoToCustomer.ClickButton();
+  page = browser.pageDashboard;
+  page.Wait();
+  page.textnode.Click();
+  page.textnodeContract.Click();
+  textbox = page.textboxMobile3;
+  textbox.Click();
+  textbox.SetText("0417890056");
+  textbox = page.textboxEmail3;
+  textbox.Click();
+  textbox.Click();
+  textbox.SetText("dummy3@gmail.com");
+  page.buttonSave.ClickButton();
+  
+  aqObject.CheckProperty(Aliases.browser.Page("https://hansencis-uat.se.hsntech.com/EnergyPortal/jsf/care/dashboard.jsf*").FindElement("//div[contains(@class, 'ui-growl-item')]/div[contains(@class, 'ui-growl-item')]"), "contentText", cmpEndsWith, "changes saved", false);
+}
+

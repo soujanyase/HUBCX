@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{AD2C82AB-70CC-4852-A131-FF39A5A0F368}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{8B242907-07CF-4EBA-9449-F7BEC012A25F}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{3952961E-3542-4F72-85F8-92259E417009}">
+								<Image FileName="-205158131" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSearchcustomerprospect" Key="{71156043-DDA5-4D57-8808-6E07DB9EB83B}">
+								<Image FileName="-205158131" Left="0" Top="128" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{6E6F3D26-FED6-48B0-B5BB-5333039F4845}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hansencis-uat.se.hsntech.com/EnergyPortal/jsf/care/searchCustomerProspect.jsf" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formUsername" Key="{7221805C-D2C1-4A0E-900A-FAAB4968BCDC}">
+										<Image FileName="-604878689" Left="743" Top="282" Right="1156" Bottom="638" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;j_security_check&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;form-signin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxJUsername" Key="{63FB2FAE-EF71-4A55-AFB0-55211AA2B3DC}">
+										<Image FileName="-604878689" Left="762" Top="441" Right="1137" Bottom="476" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#j_username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;j_username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@title=&apos;Username: &apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxJPassword" Key="{DF54FD86-55E8-4E05-B41C-F488B0C8BA93}">
+										<Image FileName="-1840514688" Left="762" Top="518" Right="1137" Bottom="553" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#j_password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;j_password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@title=&apos;Password: &apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{136A47C8-67BA-4ACC-9B87-EEA1D88803F3}">
+										<Image FileName="-2001466083" Left="762" Top="571" Right="1137" Bottom="619" />
+										<TypeInfo Item0="{9B369CC4-0377-490A-A5F0-BC37D31E3A6B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;loginBtn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxRootbuid" Key="{2701B680-CDF1-4F27-8340-5FD1B7229B93}">
+										<Image FileName="-639838371" Left="550" Top="302" Right="962" Bottom="337" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//input[@role=&apos;textbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[2]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;compPanel&apos;]//div[2]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{15E7806C-6F28-4F5C-A874-F8FF8F11D562}">
+										<Image FileName="853203001" Left="101" Top="685" Right="201" Bottom="728" />
+										<TypeInfo Item0="{9B369CC4-0377-490A-A5F0-BC37D31E3A6B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ui-corner-left&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonGoToCustomer" Key="{3ED25805-6C89-4D0E-B3EE-53F0A7935AF8}">
+										<Image FileName="-2038193974" Left="101" Top="780" Right="363" Bottom="815" />
+										<TypeInfo Item0="{9B369CC4-0377-490A-A5F0-BC37D31E3A6B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Go to Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/button[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/button[contains(@class, &apos;ui-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;compInsertPanel&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageJSecurityCheck" Key="{04425062-F5C2-4B94-AE12-73304315FBDC}">
+								<Image FileName="-205158131" Left="0" Top="128" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{6E6F3D26-FED6-48B0-B5BB-5333039F4845}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hansencis-uat.se.hsntech.com/EnergyPortal/jsf/care/j_security_check" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formUsername" Key="{F31630F3-2D03-4C4D-ADCD-870583F00750}">
+										<Image FileName="-2119661968" Left="743" Top="282" Right="1156" Bottom="707" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;j_security_check&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;form-signin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxJPassword" Key="{091423CE-257E-42D1-B5B1-F38CBB6AB0E6}">
+										<Image FileName="-2119661968" Left="762" Top="518" Right="1137" Bottom="553" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#j_password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;j_password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Noesys$321&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{BCC60047-5283-45D8-8D1E-2D6D8947E0E3}">
+										<Image FileName="-668077116" Left="762" Top="640" Right="1137" Bottom="688" />
+										<TypeInfo Item0="{9B369CC4-0377-490A-A5F0-BC37D31E3A6B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;loginBtn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDashboard" Key="{7AE2440A-B171-4079-9886-4C82E029E444}">
+								<Image FileName="1395445453" Left="0" Top="128" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{6E6F3D26-FED6-48B0-B5BB-5333039F4845}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hansencis-uat.se.hsntech.com/EnergyPortal/jsf/care/dashboard.jsf*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{58AFAF8C-2713-442A-8AB5-13EBAC1E18D6}">
+										<Image FileName="280113050" Left="111" Top="708" Right="131" Bottom="728" />
+										<TypeInfo Item0="{D7B31328-C264-45D8-9B8C-2BF3C20060DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/span[contains(@class, &apos;ui-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[5]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContract" Key="{A8AFB41F-174B-4EF9-8516-83EA2E1B524C}">
+										<Image FileName="534437833" Left="133" Top="846" Right="194" Bottom="866" />
+										<TypeInfo Item0="{D7B31328-C264-45D8-9B8C-2BF3C20060DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Contract&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Contract&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//td/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/form//div[2]//tbody/tr/td/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobile" Key="{56198E52-6E7D-40FB-9928-6B3B4D1E4E33}">
+										<Image FileName="2147042768" Left="550" Top="715" Right="903" Bottom="750" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;0415678788&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[10]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail" Key="{C97CCBEB-A36E-423A-AD66-BB2B2DF2B2D5}">
+										<Image FileName="-702506461" Left="550" Top="794" Right="903" Bottom="829" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;dummy12@gmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[12]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{B42BDFBC-5D43-45AE-9C00-201EA324F523}">
+										<Image FileName="-212039582" Left="160" Top="919" Right="243" Bottom="962" />
+										<TypeInfo Item0="{9B369CC4-0377-490A-A5F0-BC37D31E3A6B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;primary-button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYouHaveBeenSuccessfully" Key="{FC19A308-A057-424F-8446-3255D97E5C33}">
+										<Image FileName="-249257227" Left="812" Top="453" Right="1104" Bottom="474" />
+										<TypeInfo Item0="{07ECB31A-9E99-47B1-B4E2-93FA4EB9FF75}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;You have been successfully logged out.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;white&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSmTopmenu" Key="{4EA471C5-EA1B-4F4F-BC74-0C0661661AB6}">
+										<Image FileName="1545878736" Left="1722" Top="139" Right="1887" Bottom="185" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sm-topmenu" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;SSHIVANNA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;Fs16&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSshivanna" Key="{22F33999-2B0D-4393-A64B-C9BA3AD2026F}">
+										<Image FileName="1545878736" Left="1844" Top="142" Right="1887" Bottom="185" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;SSHIVANNA&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{4C9A138C-9586-4A71-B25F-9AB878C3288E}">
+										<Image FileName="1545878736" Left="1844" Top="150" Right="1887" Bottom="179" />
+										<TypeInfo Item0="{D7B31328-C264-45D8-9B8C-2BF3C20060DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/i[contains(@class, &apos;icon-user-male&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;sm-topmenu&apos;]/li[3]/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{C14E3D8B-6984-4F7F-8428-484CD88EE524}">
+										<Image FileName="-375864960" Left="1532" Top="331" Right="1887" Bottom="374" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Log Out&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a[contains(@class, &apos;white&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;sm-topmenu&apos;]//li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogOut" Key="{40D3D718-05E7-4F0D-8F3B-09A461595151}">
+										<Image FileName="-375864960" Left="1590" Top="340" Right="1878" Bottom="365" />
+										<TypeInfo Item0="{D7B31328-C264-45D8-9B8C-2BF3C20060DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log Out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span[contains(@class, &apos;Fs14&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;sm-topmenu&apos;]//li[4]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYouHaveBeenSuccessfully2" Key="{30FDC7BB-65BC-4306-9D94-32F094F5F535}">
+										<Image FileName="-249257227" Left="812" Top="453" Right="1104" Bottom="474" />
+										<TypeInfo Item0="{07ECB31A-9E99-47B1-B4E2-93FA4EB9FF75}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;You have been successfully logged out.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;white&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYouHaveBeenSuccessfully3" Key="{8570B8B6-CA23-481E-9FA0-DDAA9FF2F070}">
+										<Image FileName="-2065438451" Left="812" Top="453" Right="1104" Bottom="474" />
+										<TypeInfo Item0="{07ECB31A-9E99-47B1-B4E2-93FA4EB9FF75}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;You have been successfully logged out.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;white&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;accountWall_content&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobile2" Key="{4064AA33-ABCC-46EF-80A7-95D0E1952966}">
+										<Image FileName="-1902163951" Left="550" Top="965" Right="903" Bottom="1000" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;0415678787&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[10]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail2" Key="{3A1B1AEE-7517-42D6-B581-20D643796994}">
+										<Image FileName="884619447" Left="550" Top="669" Right="903" Bottom="704" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;dummy2@gmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[12]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobile3" Key="{93FD2AE3-66FD-4030-86D7-327C1BB5958F}">
+										<Image FileName="-568686536" Left="550" Top="715" Right="903" Bottom="750" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;0415678784&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[10]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHome" Key="{3D3FDCFD-D6C2-400B-840D-0EA6EF7E0524}">
+										<Image FileName="-125222993" Left="0" Top="-372" Right="1899" Bottom="1563" />
+										<TypeInfo Item0="{D7B31328-C264-45D8-9B8C-2BF3C20060DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail3" Key="{691F6CF4-EB57-4BBE-AF23-F5E934614012}">
+										<Image FileName="1686387071" Left="550" Top="795" Right="903" Bottom="830" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;dummy@gmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[12]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Confirm" Key="{BA896856-7FDC-4C3B-B334-AD2DB5EC8913}">
+										<Image FileName="-274509077" Left="0" Top="0" Right="578" Bottom="181" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Confirm" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{E7E8DE41-1E7C-4BA3-8CB5-FF9E0A097FF4}">
+												<Image FileName="-274509077" Left="369" Top="109" Right="454" Bottom="150" />
+												<TypeInfo Item0="{2DD2F9F7-BF2F-4908-9B27-0149765597CC}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDashboard2" Key="{08BC3C5A-40B6-4AEC-878E-8B8DDD585432}">
+								<Image FileName="161814195" Left="9" Top="137" Right="1929" Bottom="1029" />
+								<TypeInfo Item0="{D8F3035A-BA76-4E96-8DBA-BE1A8C1BC32F}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hansencis-uat.se.hsntech.com/EnergyPortal/jsf/care/dashboard.jsf*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelChangesSaved" Key="{6AA73F18-F27B-4A5C-A67B-43CDCEA8D565}">
+										<Image FileName="161814195" Left="1508" Top="226" Right="1882" Bottom="291" />
+										<TypeInfo Item0="{07ECB31A-9E99-47B1-B4E2-93FA4EB9FF75}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ui-growl-item&apos;)]/div[contains(@class, &apos;ui-growl-item&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobile" Key="{E9CF2950-41A6-4677-9DC3-D733CCF9B192}">
+										<Image FileName="1474857266" Left="550" Top="747" Right="903" Bottom="782" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;0417890059&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[10]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail" Key="{4EC6332E-6F85-4FA8-BBAB-63EC25A0DC27}">
+										<Image FileName="1057659847" Left="550" Top="251" Right="903" Bottom="286" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;dummy3@gmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[12]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobile2" Key="{93591E90-43EE-43E9-9C15-7CDA77033935}">
+										<Image FileName="2012290539" Left="550" Top="715" Right="903" Bottom="750" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;0417890054&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[10]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail2" Key="{1FCB8071-81E1-4E3D-B9B9-B5696C32F11B}">
+										<Image FileName="295971888" Left="550" Top="794" Right="903" Bottom="829" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;dummy7@gmail.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[12]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobile3" Key="{99625573-FC89-45F4-95B6-201202BDB7BA}">
+										<Image FileName="64523106" Left="550" Top="760" Right="903" Bottom="795" />
+										<TypeInfo Item0="{BC399DEA-522E-4BBF-B58D-0F0E9AEDD7B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;0417890055&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input[contains(@class, &apos;ui-inputfield&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tabViewId&apos;]//div[10]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{409A6567-E2EC-428D-BE5D-6CBA57F7FD45}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{BC2FB7A5-6F7C-4A81-A4AC-BE9C57BBE38D}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TrayNotifyWnd" Key="{7E2244C8-226F-4E3A-AF30-2AAF9E900943}">
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TrayNotifyWnd" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="SysPager" Key="{96205961-F62B-4AF7-978F-A9FE27293700}">
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysPager" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="systemTray" Key="{20B5EA50-4069-47D5-B4D8-B5DA747FBF68}">
+														<TypeInfo Item0="{BCD408E4-6E40-4E89-AF60-099B80EF1E4F}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="ToolbarWindow32" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{8B242907-07CF-4EBA-9449-F7BEC012A25F}">
+			<Child Name="BrowserWindow" Owner="{3952961E-3542-4F72-85F8-92259E417009}" />
+			<Child Name="pageSearchcustomerprospect" Owner="{71156043-DDA5-4D57-8808-6E07DB9EB83B}">
+				<Child Name="formUsername" Owner="{7221805C-D2C1-4A0E-900A-FAAB4968BCDC}">
+					<Child Name="textboxJUsername" Owner="{63FB2FAE-EF71-4A55-AFB0-55211AA2B3DC}" />
+					<Child Name="passwordboxJPassword" Owner="{DF54FD86-55E8-4E05-B41C-F488B0C8BA93}" />
+					<Child Name="buttonLogin" Owner="{136A47C8-67BA-4ACC-9B87-EEA1D88803F3}" />
+				</Child>
+				<Child Name="textboxRootbuid" Owner="{2701B680-CDF1-4F27-8340-5FD1B7229B93}" />
+				<Child Name="buttonSearch" Owner="{15E7806C-6F28-4F5C-A874-F8FF8F11D562}" />
+				<Child Name="buttonGoToCustomer" Owner="{3ED25805-6C89-4D0E-B3EE-53F0A7935AF8}" />
+			</Child>
+			<Child Name="pageJSecurityCheck" Owner="{04425062-F5C2-4B94-AE12-73304315FBDC}">
+				<Child Name="formUsername" Owner="{F31630F3-2D03-4C4D-ADCD-870583F00750}">
+					<Child Name="passwordboxJPassword" Owner="{091423CE-257E-42D1-B5B1-F38CBB6AB0E6}" />
+					<Child Name="buttonLogin" Owner="{BCC60047-5283-45D8-8D1E-2D6D8947E0E3}" />
+				</Child>
+			</Child>
+			<Child Name="pageDashboard" Owner="{7AE2440A-B171-4079-9886-4C82E029E444}">
+				<Child Name="textnode" Owner="{58AFAF8C-2713-442A-8AB5-13EBAC1E18D6}" />
+				<Child Name="textnodeContract" Owner="{A8AFB41F-174B-4EF9-8516-83EA2E1B524C}" />
+				<Child Name="textboxMobile" Owner="{56198E52-6E7D-40FB-9928-6B3B4D1E4E33}" />
+				<Child Name="textboxEmail" Owner="{C97CCBEB-A36E-423A-AD66-BB2B2DF2B2D5}" />
+				<Child Name="buttonSave" Owner="{B42BDFBC-5D43-45AE-9C00-201EA324F523}" />
+				<Child Name="textnodeYouHaveBeenSuccessfully" Owner="{FC19A308-A057-424F-8446-3255D97E5C33}" />
+				<Child Name="textnodeSmTopmenu" Owner="{4EA471C5-EA1B-4F4F-BC74-0C0661661AB6}">
+					<Child Name="textnodeSshivanna" Owner="{22F33999-2B0D-4393-A64B-C9BA3AD2026F}">
+						<Child Name="textnode2" Owner="{4C9A138C-9586-4A71-B25F-9AB878C3288E}" />
+						<Child Name="linkLogOut" Owner="{C14E3D8B-6984-4F7F-8428-484CD88EE524}">
+							<Child Name="textnodeLogOut" Owner="{40D3D718-05E7-4F0D-8F3B-09A461595151}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnodeYouHaveBeenSuccessfully2" Owner="{30FDC7BB-65BC-4306-9D94-32F094F5F535}" />
+				<Child Name="textnodeYouHaveBeenSuccessfully3" Owner="{8570B8B6-CA23-481E-9FA0-DDAA9FF2F070}" />
+				<Child Name="textboxMobile2" Owner="{4064AA33-ABCC-46EF-80A7-95D0E1952966}" />
+				<Child Name="textboxEmail2" Owner="{3A1B1AEE-7517-42D6-B581-20D643796994}" />
+				<Child Name="textboxMobile3" Owner="{93FD2AE3-66FD-4030-86D7-327C1BB5958F}" />
+				<Child Name="textnodeHome" Owner="{3D3FDCFD-D6C2-400B-840D-0EA6EF7E0524}" />
+				<Child Name="textboxEmail3" Owner="{691F6CF4-EB57-4BBE-AF23-F5E934614012}" />
+				<Child Name="Confirm" Owner="{BA896856-7FDC-4C3B-B334-AD2DB5EC8913}">
+					<Child Name="buttonOk" Owner="{E7E8DE41-1E7C-4BA3-8CB5-FF9E0A097FF4}" />
+				</Child>
+			</Child>
+			<Child Name="pageDashboard2" Owner="{08BC3C5A-40B6-4AEC-878E-8B8DDD585432}">
+				<Child Name="panelChangesSaved" Owner="{6AA73F18-F27B-4A5C-A67B-43CDCEA8D565}" />
+				<Child Name="textboxMobile" Owner="{E9CF2950-41A6-4677-9DC3-D733CCF9B192}" />
+				<Child Name="textboxEmail" Owner="{4EC6332E-6F85-4FA8-BBAB-63EC25A0DC27}" />
+				<Child Name="textboxMobile2" Owner="{93591E90-43EE-43E9-9C15-7CDA77033935}" />
+				<Child Name="textboxEmail2" Owner="{1FCB8071-81E1-4E3D-B9B9-B5696C32F11B}" />
+				<Child Name="textboxMobile3" Owner="{99625573-FC89-45F4-95B6-201202BDB7BA}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{409A6567-E2EC-428D-BE5D-6CBA57F7FD45}">
+			<Child Name="wndShell_TrayWnd" Owner="{BC2FB7A5-6F7C-4A81-A4AC-BE9C57BBE38D}">
+				<Child Name="TrayNotifyWnd" Owner="{7E2244C8-226F-4E3A-AF30-2AAF9E900943}">
+					<Child Name="SysPager" Owner="{96205961-F62B-4AF7-978F-A9FE27293700}">
+						<Child Name="systemTray" Owner="{20B5EA50-4069-47D5-B4D8-B5DA747FBF68}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

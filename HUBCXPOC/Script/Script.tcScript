@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="HUBJScript" key="{33A4FA14-6687-4054-84B3-EE69B5A43FA4}" path="HUBJScript.js" />
+		<child name="HUBCXScript" key="{7AB33B68-DEA8-489C-92B4-030DBD2B93EE}" path="HUBCXScript.js" />
+	</children>
+</Root>

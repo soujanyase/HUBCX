@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{579AA217-C6D5-4628-99E9-5C10997F41D2}">
+	<children>
+		<child name="HUBCXPOC" key="{65A478B3-FFD6-4F47-A91C-CF1EB2250CCD}" path="HUBCXPOC\HUBCXPOC.mds" />
+	</children>
+	<testItems key="{3E9E7C63-5607-489E-85B9-B5F6DC4904C6}">
+		<children>
+			<testItem key="{65A478B3-FFD6-4F47-A91C-CF1EB2250CCD}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{BF250386-31C5-466E-A154-27EE63D01B25}" />
+	<analysis key="{6B433F55-16B0-4820-80CE-008573E4FEBA}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

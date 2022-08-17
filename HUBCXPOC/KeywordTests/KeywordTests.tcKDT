@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="HUBCXKeywordtest" key="{7B39C791-9008-4961-BDF2-37BD74121162}" path="HUBCXKeywordtest.tcKDTest" />
+	</children>
+</Root>
